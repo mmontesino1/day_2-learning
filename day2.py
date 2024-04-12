@@ -1,62 +1,75 @@
-# Description: This file is for the second day of the python workshop
+# # Description: This file is for the second day of the python workshop
 
 
-# create variables for the following :
-# 1. age
-age=55
-# 2. name
-name="John"
-# 3. song
-song="all too well"
-# 4. food
-food= "honeycomb"
-# 5. number
-number=100
-# #now include the variables you just made print in the following...
-# Once upon a time, there was a [age] old coder named [name].
-# [name] liked to hum the song [song] while coding. It was so annoying that their teammates would
-# throw [food] until [name] would stop singing.
-# Still, [name] was the best coder on the team and could write [number] lines of code every day.
-# Maybe [song] was [name]’s secret power?
-# No one will ever know.
-print(f''' Once upon a time, there was a {age} old coder named{name}. [name] liked to hum the song {song} while coding. It was so annoying that their teammates would throw {food} until [name] would stop singing. Still, [name] was the best coder on the team and could write {number} lines of code every day. Maybe [song] was [name]’s secret power? No one will ever know.''')
-# f string interpolation is a way to format strings in python
-# What is syntax ? What is an algorithm?
-# a way of writing code
-# what is a variable? What is a string?
-# name="john" #s6rong thi is defiened
-# age = is undefe9ined because it has no value
-# in phython name="John" 
-# javascripy syntax var name ="John" 
-# strings are nothing but plain text
-# what does this do?
-print("Giraffe \n academy")
-#/n makes a new line
-print("Giraffe \t academy")
-# /t makes a tab
+# # create variables for the following :
+# # 1. age
+# age=55
+# # 2. name
+# name="John"
+# # 3. song
+# song="all too well"
+# # 4. food
+# food= "honeycomb"
+# # 5. number
+# number=100
+# # #now include the variables you just made print in the following...
+# # Once upon a time, there was a [age] old coder named [name].
+# # [name] liked to hum the song [song] while coding. It was so annoying that their teammates would
+# # throw [food] until [name] would stop singing.
+# # Still, [name] was the best coder on the team and could write [number] lines of code every day.
+# # Maybe [song] was [name]’s secret power?
+# # No one will ever know.
+# print(f''' Once upon a time, there was a {age} old coder named{name}. [name] liked to hum the song {song} while coding. It was so annoying that their teammates would throw {food} until [name] would stop singing. Still, [name] was the best coder on the team and could write {number} lines of code every day. Maybe [song] was [name]’s secret power? No one will ever know.''')
+# # f string interpolation is a way to format strings in python
+# # What is syntax ? What is an algorithm?
+# # a way of writing code
+# # what is a variable? What is a string?
+# # name="john" #s6rong thi is defiened
+# # age = is undefe9ined because it has no value
+# # in phython name="John" 
+# # javascripy syntax var name ="John" 
+# # strings are nothing but plain text
+# # what does this do?
+# print("Giraffe \n academy")
+# #/n makes a new line
+# print("Giraffe \t academy")
+# # /t makes a tab
 
-# or this
-phrase = "python learning "
-print(phrase + "is cool")
-#  this is called concatenation or string interpolation
-#what does the + sign do? What is it called?
+# # or this
+# phrase = "python learning "
+# print(phrase + "is cool")
+# #  this is called concatenation or string interpolation
+# #what does the + sign do? What is it called?
 
 
-#what if I wanted to get the length of a phrase?
+# #what if I wanted to get the length of a phrase?
 
-print("the length of the phrase"+len (phrase))
-declarationOfInDependence= "We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness." 
-print(f"the lengeth of the declaration is"{len(declarationOfInDependence)}'')
-#len allows you ton fidnt he length of a string
-#what if I wanted to make the letters in the variable upper case or lower?
-
+# print("the length of the phrase"+len (phrase))
+# declarationOfInDependence= "We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness." 
+# print(f"the lengeth of the declaration is"{len(declarationOfInDependence)}'')
+# #len allows you ton fidnt he length of a string
+# #what if I wanted to make the letters in the variable upper case or lower?
+new_phrase = "welcome to day 2 part 3"
+print(len (new_phrase))
+print(new_phrase.upper())
+# .upper makes the string have upper case
+# pharacthesi are used to call methods
+print(new_phrase.lower())
+# .upper is a method that mkes the sting lowercase
 
 
 
 #what if I wanted to check and see if the phrase was all lower or upper?
-
+print(new_phrase.islower())
 
 #What if I wanted to get one letter of the phrase
+print(new_phrase[0])
+print(new_phrase[1])
+print(new_phrase[2])
+print(new_phrase[11])
+print(new_phrase[-1])
+# these gets your last foruth and more letters of a phrase
+
 
 
 # The names you use when creating these labels need to follow a few rules:
@@ -77,21 +90,21 @@ print(f"the lengeth of the declaration is"{len(declarationOfInDependence)}'')
 
 
 # Addition
-
+print(2+2)
 # Subtraction
-
+print(2-5)
 # Multiplication
-
+print(2*3)
 # Division
-
+print(10/2)
 # Modulus
-
+print(10%3)
 # Exponentiation
-
+print(2**3)
 # Floor Division
-
+print(10 // 3)
 # Order of Operations followed in Python
-
+print(2*3*1)
 # You can use parentheses to specify the order in which you want operations to be performed.
 
 #to do more you need to import special math libraries from python
