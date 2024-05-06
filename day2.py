@@ -145,3 +145,4 @@ print(sqrt(54))
 # Convert and print the phrase in uppercase and lowercase.
 # Check if the phrase is all lower or all upper and print the result.
 # Print the first and the last letter of the phrase.
+
